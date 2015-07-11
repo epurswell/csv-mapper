@@ -115,6 +115,8 @@ module CsvMapper
   def map_csv_with_data(csv_data, &map_block) # :nodoc:
     CsvMapper::RowMap.new(self, csv_data, &map_block)
   end
+  #add a puts here just to see 
+  puts("hi there")
   
   extend self
 end
